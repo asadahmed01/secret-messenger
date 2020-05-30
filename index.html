@@ -9,13 +9,21 @@
 <body>
   <div class="row">
     <div class="col s8 offset-s2">
-      <div class="card-panel">
+      <div id="message-form" class="card-panel">
         <form>
           <label>Enter secret message</label>
-          <input />
+          <input id="message-input"/>
           <button class="btn">Create</button>
         </form>
       </div>
+
+      <div id="link-form" class="card-panel hide">
+        <div>
+          <p>Share this link with a friend</p>
+          <input id="link-input" />
+          <button id="copy" class="btn">Copy Link</button>
+        </div>
+    </div>
     </div>
   </div>
   <script src="app.js"></script>
