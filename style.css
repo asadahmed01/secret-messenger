@@ -1,0 +1,27 @@
+
+body
+{
+  background: #36393F;
+
+}
+.row
+{
+  margin-top: 25vh;
+}
+#message-form
+{
+  background: lightgray;
+}
+h3
+{
+  margin-top: 0;
+}
+#message-show, #message-form
+{
+  border-radius: 50px;
+}
+#alert
+{
+  text-align: center;
+  background: rgb(215, 243, 205);
+}
